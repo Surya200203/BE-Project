@@ -39,7 +39,7 @@ This project enhances underwater images using a Convolutional Neural Network (CN
      ```
 ## Running the Web Application
 1. Start the Flask backend:
-   Note :- create virtual environment first then do below steps & CNN model is not present if need plz contact me
+   Note :- create virtual environment first then do below steps & CNN model is not present in repo if need plz contact me
    - Go in backend directory
      ```bash
        cd backend
