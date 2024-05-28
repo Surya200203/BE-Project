@@ -3,6 +3,11 @@
 ## Overview
 
 This project enhances underwater images using a Convolutional Neural Network (CNN) based on the U-Net architecture. Implemented in Keras, the model improves image quality by addressing issues like color distortion, low contrast, and poor visibility.
+## Dataset
+- The EUVP (Enhancing Underwater Visual Perception) dataset contains separate sets of paired and unpaired image samples of poor and good perceptual quality to facilitate supervised training of underwater image enhancement models.
+- Underwater Dark: 5550 training pairs, 570 validation pairs, and a total of 11670 images.
+- Underwater ImageNet: 3700 training pairs, 1270 validation pairs, and a total of 8670 images.
+- Underwater Scenes: 2185 training pairs, 130 validation pairs, and a total of 4500 images.
 
 ## Features
 
@@ -39,7 +44,7 @@ This project enhances underwater images using a Convolutional Neural Network (CN
      ```
 ## Running the Web Application
 1. Start the Flask backend:
-   Note :- create virtual environment first then do below steps & CNN model is not present in repo if need plz contact me
+   Note :- create virtual environment first then do below steps 
    - Go in backend directory
      ```bash
        cd backend
