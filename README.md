@@ -70,7 +70,7 @@ Enhanced images consistently show improved quality in terms of color balance, co
 
 | Input Image | Output Image |
 |-------------|--------------|
-| ![Input Image 1](path_to_input_image_1) | ![Output Image 1](path_to_output_image_1) |
+| ![Input Image 1](./results/i1.jpg) | ![Output Image 1](path_to_output_image_1) |
 | ![Input Image 2](path_to_input_image_2) | ![Output Image 2](path_to_output_image_2) |
 | ![Input Image 3](path_to_input_image_3) | ![Output Image 3](path_to_output_image_3) |
 
