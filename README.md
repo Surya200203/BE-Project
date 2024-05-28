@@ -39,6 +39,7 @@ This project enhances underwater images using a Convolutional Neural Network (CN
      ```
 ## Running the Web Application
 1. Start the Flask backend:
+   Note :- create virtual environment first then do below steps
    - Go in backend directory
      ```bash
        cd backend
@@ -51,7 +52,8 @@ This project enhances underwater images using a Convolutional Neural Network (CN
      ```bash
       python server.py
      ```
-2. Start the React frontend:
+3. Start the React frontend:
+   Note :- install node modules first then reun below code
    - Go in frontend directory
      ```bash
        cd frontend
