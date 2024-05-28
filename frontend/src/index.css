@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    body{
+        @apply font-body;
+    }
+    h1,h2,h3{
+        @apply font-display text-gray-800 font-medium;
+    }
+    .container{
+        @apply px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-28 ;
+    }
+    .anchor-hover{
+        @apply border-b border-dotted border-gray-300 hover:border-solid hover:border-gray-500;
+    }
+    .gradient-hover-outer {
+        @apply  p-[1px]  bg-blue-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200;
+    }
+    .gradient-hover-inner{
+        @apply bg-[#F8FBFD] group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50;
+    }
+    .image-container {
+        width: 300px;  /* Set your desired width */
+        height: 300px;  /* Set the same height to make it a square */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border: 5px solid #000;  /* Optional: Add a border */
+        border-radius: 10px;
+        margin-top: 2px;  /* Optional: Add some margin for spacing */
+    }
+
+    .processed-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;  /* Ensures the image covers the container without distortion */
+    }
+
+}
